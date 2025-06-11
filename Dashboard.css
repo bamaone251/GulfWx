@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+#horizontalLine {  
+    border-bottom: 2px solid ;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-color: #039;
+   }
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	background-color: #0e3892;
+}
+
+a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #000;
+}
+
+#bannersecond a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFF;
+}
+
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 100%;
+}
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 100%;
+}
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	color: black;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 150%;
+}
+
+#container {
+	width: 95%;
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#banner {
+	width: 100%;
+	float: left;
+	background-color: #001a49;	
+}
+
+#TopBannerOuter {
+	width: 100%;
+	float: left;
+	color: #F00;
+	position: relative;
+	height: 30px;		
+}
+
+#TopBannerOuter h2 {
+	color:#09F;
+}
+
+#TopBannerInnerLeft {
+	width: 45%;
+	float: left;
+	padding-left: 10px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #0CF;
+	font-size: 16px;
+}
+
+#TopBannerInnerRight {
+	width: 53%;
+	float: right;
+	color: #0CF;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#TopBannerInnerRight a {
+	color: #0CF;
+	font-weight: bold;
+}
+
+#BottomBannerOuter {
+	width: 100%;
+	float: left;
+	color: #69F;
+	position: relative;
+	height: 50px;
+	background-image: url(../images/DashboardBanner.gif)
+}
+
+#BottomBannerOuter h2 {
+	color:#FFF;
+}
+
+#BottomBannerInnerLeft {
+	width: 98%;
+	float: left;
+	padding-top: 5px;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;		
+}
+
+#BottomBannerInnerLeft a {
+	color: #FFF;
+	font-weight: bold;
+}
+
+#MapTitle {
+	width: 100%;
+	float: left;
+    height: 40px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 275px;
+  left: 200px;
+  font-size: 16px;
+  test-align: left;
+  line-height: 100%;
+}
+
+#leftcolumn {
+	width: 15%;
+	float: left;
+	background-color:#FFF ;	
+}
+
+#leftcolumn div img{
+	width: 85%;
+}
+
+#centercolumn {
+	width: 65%;
+	height: 100%;
+	float: left;
+	background-color:#D2D2D2 ;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+}
+
+#centercolumn div img{
+	width: 90%;
+}
+
+#rightcolumn {
+	width: 20%;
+	float: left;
+	background-color:#FFF ;
+	line-height: 120%;
+}
+		
+#centerheader {
+	width: auto;
+	float: left;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+
+#header {
+	width: auto;
+	float: left;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+}	
+#social {
+	width: 99%;
+	text-align: center;
+	color: #A91530;
+	font-weight: bold;
+}
+
+#Seminar {
+	width: 87%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #FBFBFB;
+	font-weight: bold;
+	background-color: #1559a9;
+	border-radius: 3px 3px 3px 3px;
+}
+
+#Seminar a {
+	color: #FBFBFB;
+	font-weight: normal;
+}
+
+#RightContent {
+	width: 95%;
+	padding-left: 10px;
+}
+
+#list {
+	width: 100%;
+	text-align: center;
+	color: #1559a9;
+	font-weight: bold;
+}
+
+#list a {
+	color: #1559a9;
+	font-weight: bold;
+}
+
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain its child floats */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
